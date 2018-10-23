@@ -4,12 +4,44 @@ title: Home
 
 <div id="home">
   <div class="home-content">
-    <%= image_tag "logo.png", width: "200" %>
-    <p>
-      Middleman is now running!
-    </p>
-    <p class="about">
-      <%= link_to "More about this template", "about.html" %>
-    </p>
+    <div>
+      <h3>
+        The world awaits!
+      </h3>
+      <h4>
+         Where do you want to go?
+      </h4>
+
+    </div>
+    <div>
+      <%= image_tag 'https://kitt.lewagon.com/placeholder/cities/berlin', width: "800" %>
+      <h4>Featured City: Berlin</h4>
+      <%= link_to "Go now!", "index.html", class:"navbar-wagon-item navbar-wagon-link" %>
+    </div>
+    <div>
+      <h5>Or see more cities below</h5>
+    </div>
   </div>
 </div>
+
+<div class="container">
+  <div class="row">
+    <% data.cities.each do |city| %>
+      <div class="col-md-4">
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/shanghai');">
+          <div class="card-category">Popular</div>
+          <div class="card-description">
+            <h2><%= city.name %></h2>
+            <p><%= city.address %></p>
+          </div>
+
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>
+
+
+
+
+
