@@ -27,21 +27,15 @@ title: Home
 <div class="container">
   <div class="row">
     <% data.cities.each do |city| %>
-      <div class="col-md-4">
-        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/shanghai');">
+      <div class="col-md-4 col-sm-6">
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/<%= city.name %>');">
           <div class="card-category">Popular</div>
           <div class="card-description">
-            <h2><%= city.name %></h2>
+            <h2><%= city.display_name %></h2>
             <p><%= city.address %></p>
           </div>
-
         </div>
       </div>
     <% end %>
   </div>
 </div>
-
-
-
-
-
