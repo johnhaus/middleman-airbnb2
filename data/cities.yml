@@ -1,16 +1,14 @@
-- name: shanghai
-  address: "China"
 - name: paris
   address: "France"
 - name: lisbon
   address: "Portugual"
 - name: berlin
   address: "Germany"
-- name: marseille
-  address: "France"
-- name: london
-  address: "England"
 - name: barcelona
   address: "Spain"
-- name: melbourne
-  address: "Austrailia"
+- name: amsterdam
+  address: "Netherlands"
+- name: brussels
+  address: "Belgium"
+- name: milan
+  address: "Italy"
