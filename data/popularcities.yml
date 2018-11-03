@@ -1,0 +1,10 @@
+- name: london
+  address: "England"
+- name: melbourne
+  address: "Austrailia"
+- name: shanghai
+  address: "China"
+- name: tokyo
+  address: "Japan"
+- name: copenhagen
+  address: "Denmark"
