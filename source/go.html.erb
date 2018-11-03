@@ -1,13 +1,15 @@
-<div id='home'>
-  <div>
-    <div><p>Pack your bags!! It's time to go to Berlin!</p></div>
-    <div>
-      <%= image_tag 'https://kitt.lewagon.com/placeholder/cities/berlin', width: "800" %>
-      <h4>Berlin</h4>
-      <%= link_to "Book your trip!", "go.html", class: "button" %>
-    </div>
-    <div>
-
+<div class="container">
+  <div class="row">
+    <div class="center-go">
+      <div class="col-xs-12 col-sm-10">
+        <p>Pack your bags!! It's time to go to Berlin!</p>
+        <div class="card-lg" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/berlin');">
+        </div>
+        <div>
+        <h4>Berlin</h4>
+        <%= link_to "Book your trip!", "go.html", class: "book" %>
+        </div>
+      </div>
     </div>
   </div>
 </div>
