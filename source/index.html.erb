@@ -12,12 +12,12 @@ title: Home
       <%= link_to "Go now!", "go.html", class: "go" %>
     </div>
     <div class="main-padding">
-      <h5>Or see more cities below</h5>
+      <%= link_to "Or see more cities below", "#container-popular", class: "go" %>
     </div>
   </div>
 </div>
 
-<div class="container-popular">
+<div id="container-popular">
   <div class="row">
     <p class="center">Popular Destinations</p>
     <% data.popularcities.each do |city| %>
@@ -34,7 +34,7 @@ title: Home
   </div>
 </div>
 
-<div class="container-standard">
+<div id="container-standard">
   <div class="row">
     <p class="center">All Destinations</p>
     <% data.cities.each do |city| %>
