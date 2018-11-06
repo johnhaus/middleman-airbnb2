@@ -2,23 +2,23 @@
 title: About
 ---
 
-<div id="about">
+<div id="pages">
   <div class="col-xs-12 col-sm-10 col-md-8 col-lg-4">
-    <h1>This website was built with <i class="fas fa-heart"></i> by</h1>
+    <h4>This website was built with <i class="fas fa-heart"></i> by</h4>
     <ul class="list-inline">
       <% data.users.each do |user| %>
         <li>
           <% link_to "https://kitt.lewagon.com/alumni/#{user.github_nickname}", target: "_blank" do %>
             <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{user.github_nickname}", class: "img-circle" %>
           <% end %>
-          <h2><%= user.name %></h2>
+          <h4><%= user.name %></h4>
           <p>
             <% link_to "https://github.com/#{user.github_nickname}", target: "_blank" do %>
               <i class="fab fa-github"></i> <%= user.github_nickname %>
             <% end %>
           </p>
           <div>
-            <h2>As part of my plans for world domination!! Mwahahaha!!!</h2>
+            <h4>As part of my plans for world domination!! Mwahahaha!!!</h4>
             <p>No wait!! Not world domination. To get a programming job. Yes, just to get a programming job. Nothing to do with world domination. Move along now, nothing to see here.</p>
           </div>
         </li>
