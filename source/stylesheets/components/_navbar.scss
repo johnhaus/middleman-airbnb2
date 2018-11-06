@@ -39,9 +39,13 @@
 .navbar-wagon-link {
   color: $l-blue;
   font-size: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 3px;
   &:hover {
     color: $blue;
     text-decoration: none;
+    background-color: $gray;
   }
 }
 
