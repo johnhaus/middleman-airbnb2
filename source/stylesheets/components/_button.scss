@@ -8,10 +8,14 @@
   padding-right: 70px;
   padding-top: 10px;
   padding-bottom: 10px;
+  &:hover {
+    color: $blue !important;
+    background-color: $gray;
+  }
 }
 
 .book {
-  text-decoration: none !important;
+  text-decoration: none;
   color: $l-blue !important;
   border: 5px $l-blue;
   background-color: $white;
@@ -20,4 +24,9 @@
   padding-right: 70px;
   padding-top: 10px;
   padding-bottom: 10px;
+  &:hover {
+    color: $blue !important;
+    text-decoration: none;
+    background-color: $gray;
+  }
 }
