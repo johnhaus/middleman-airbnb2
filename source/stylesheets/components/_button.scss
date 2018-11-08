@@ -1,32 +1,30 @@
 .go {
-  text-decoration: none !important;
+  text-decoration: none;
   color: $l-blue !important;
-  border: 1px $l-blue;
   background-color: $white;
   border-radius: 3px;
-  padding-left: 70px;
-  padding-right: 70px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-left: 65px;
+  padding-right: 65px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   &:hover {
-    color: $blue !important;
+    text-decoration: none;
+    color: $blue;
     background-color: $gray;
   }
 }
 
-.book {
-  text-decoration: none;
+.more-cities {
   color: $l-blue !important;
-  border: 5px $l-blue;
   background-color: $white;
   border-radius: 3px;
-  padding-left: 70px;
-  padding-right: 70px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
   &:hover {
-    color: $blue !important;
     text-decoration: none;
+    color: $blue;
     background-color: $gray;
   }
 }
