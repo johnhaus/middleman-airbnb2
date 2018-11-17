@@ -1,7 +1,8 @@
 #pages {
-  height: 100vh;
+  height: 120vh;
   display: flex;
   align-items: center;
+  align-content: space-around;
   justify-content: space-around;
   text-align: center;
   background-image: linear-gradient(0deg, $white 30%, $gray 70%);
@@ -10,4 +11,8 @@
 .img-circle {
     width: 150px;
     box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+}
+
+.go-space {
+  padding: 10px;
 }
