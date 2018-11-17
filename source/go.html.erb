@@ -7,8 +7,15 @@
           <div class="card-lg" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/berlin');">
           </div>
           <div>
-          <h4>Berlin</h4>
-          <%= link_to "Book your trip!", "go.html", class: "go" %>
+            <h4>Berlin</h4>
+            <p class="go-space"><label for="input1">Enter a leave date:</label>
+              <input type="date" id="input1" name="input1">
+              <label for="input1">Enter a return date:</label>
+              <input type="date" id="input1" name="input1">
+            </p>
+          </div>
+          <div>
+            <%= link_to "Book your trip!", "go.html", class: "go" %>
           </div>
         </div>
       </div>
